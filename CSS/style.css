@@ -2,3 +2,35 @@
     margin: 0px;
     padding: 0px;
 }
+.menu-container{
+    background-color: rgb(36, 34, 34);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+    justify-content:space-evenly;
+}
+.item{
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.item:hover{
+    color: rgb(227, 178, 32);
+}
+.box{
+    padding: 20px;
+    background-color: aquamarine;
+    width: 150px;
+}
+.box2{
+    background-color: bisque;
+}
+.box3{
+    background-color: rgb(102, 174, 113);
+}
