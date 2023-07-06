@@ -31,11 +31,17 @@
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    /* border: 2px solid #242222 ; */
     background-image: url("/images/background.png"),
     linear-gradient(45deg, #000000, #393939);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.banner-txt{
+    width: 50%;
+    padding: 20px;
+}
+.banner-photo{
+    padding: 20px;
 }
 .title{
     font-size: 55px;
@@ -53,3 +59,18 @@
     border: none;
     border-radius: ;
 }
+.photo{
+    width: 300px;
+}
+.about-title{
+    text-align: center;
+    padding: 20px;
+}
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
